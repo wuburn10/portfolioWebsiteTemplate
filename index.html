@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Development (EGL144) </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./styles.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Home -->
+    <div class="HomeContainer" id="start">
+
+      <nav>
+        <div class="logo">
+          <object class="logo" id="ketho-logo" data="img/Home/logo.png"> </object>
+        </div>
+        <div class="options">
+          <a class="options a" id="homeOption" href="index.html" style="color: yellow;">Home</a>
+          <a class="options a" id="abtOption" href="index.html#aboutTitle">About</a>
+          <a class="options a" id="portOption"  href="index.html#aboutTitle">Portfolio</a>
+          <a class="options a" id ="contactOption" href="index.html#contactL">Contact</a>
+        </div>
+      </nav>
+
+      <div id="homeInfo">
+        <h1>&emsp;Problem solver using<br>
+          <span id="logical">&emsp;logical coding</span> and<br>
+          <span class="people">&emsp;people</span>-<span id="oriented">oriented</span> design.
+        </h1>
+        <h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+Aliquam pharetra, dui id facilisis commodo, quam metus, <br>
+Duis at tellus luctus, hendrerit libero eu, ultricies dolor. <br>
+        </h4>
+        <a href="index.html#aboutTitle">
+          <button id="port">Portfolio</button>
+        </a>
+      </div>
+
+      <div id="homeImg">
+        <img id="homeImgPic" alt="homeImgPic" src="img/Home/box.png">
+      </div>
+
+      <div id="arrow">
+        <h6 id="footerHome" ><span class="people">&emsp; &emsp;   Your Name</span> 2023, all rights reserved</h6>
+          <div class="arrow-container">
+            <a href="index.html#aboutTitle" >
+              <div class="arrow"></div>
+            </a>
+          </div>
+      </div>
+      
+      <div id="chatImg">
+        <div class="chatbox-wrapper">
+          <div class="chatbox">
+            <img id="chatImgPic" alt="chatImgPic" src="img/Home/chat.jpeg">
+          </div>
+          <div class="chatbox-message-wrapper">
+            <div class="chatbox-message-header">
+              <button type="submit" id="chatX" >X</button>
+            </div>
+            <div class="chatbox-message-content">
+              <div>
+                <img id="chatImgNerd" alt="nerimg" src="img/Home/chatNerdFace.jpg">
+              </div>
+              <h4 class="chatboxInfo">
+                  Get in Touch!
+                </h4>
+
+                  <p class="chatboxInfo2">I will always try to get back to<br>
+                    you as soon as possible!</p>
+            </div>
+            <div class="chatbox-message-bottom">
+              <img id="chatMsg" alt="chatMsg" src="img/Home/chatMsg.png">
+              <form action="#" class="chatbox-message-form">
+                <textarea rows="1" placeholder="Type here..." class="chatbox-message-input"></textarea>
+              </form>
+              <img id="chatSettings" alt="chatSettings" src="img/Home/chatSettings.png">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- End of Home -->
+
+    <!-- About -->
+    <div class="AboutContainer">
+      <div id="aboutTitle" >
+        <h1 id="about">About</h1>
+      </div>
+      <div id="aboutLeft">
+        <div id="a1"> 
+          <img src="img/About/about1.png" alt="about1">
+        </div>
+        <div id="a2"> 
+          <img src="img/About/about2.png" alt="about2">
+        </div>
+        <div id="a3"> 
+          <img src="img/About/portfolio.png" alt="portfolio">
+        </div>
+      </div>
+      <div id="aboutRight">
+        <div id="rText">
+          <p>I'm a Singaporean student that is<br>
+            passionate and has years of<br>
+            experience in website design.<br><br>
+            I am always willing to learn more<br>
+            and I believe that I always<br>
+            have room for improvement.
+          </p> 
+        </div>
+        <div id="rText2">
+          <div>
+            <p>Working Experience<br>
+            </p>
+          </div>
+          <div class="weC" >
+            <div class="rtHead">Freelance Designer</div>
+            <div class="rtBody">2020-Present</div>
+            <div class="rtHead">Freelance Configurator</div>
+            <div class="rtBody">2018-Present</div>
+            <div class="rtHead">HR Intern <br>Nestle</div>
+            <div class="rtBody">2021-2022</div>
+          </div>
+        </div>
+        <div id="rText3">
+          <div id="rtCont">
+            <div class="rt3">
+              <img class="rPic" src="img/About/pic1.png" alt="portfolio-pic1">
+              <div class="rtHead">tkkrsu!</div>
+              <div class="rtBody">A private osu! server set up for some of my friends, 
+                being hosted on an Amazon EC2. Coded in Python, using NGINX as a reverse proxy, 
+                MySQL for its database, with some HTML and CSS for the web interface
+              </div>
+            </div>
+            <div class="rt3">
+              <img class="rPic2" src="img/About/pic2.jpeg" alt="portfolio-pic2">
+              <div class="rtHead">Kana Discord Bot</div>
+              <div class="rtBody">Co-Owner of a Discord Bot made with Sapphire Framework and 
+                  discord.js v14, and had integrations with Whatsapp
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div id="portArrow">
+          <div class="arrow2"></div>
+      </div>
+    </div>
+    <!-- End of About -->
+    
+    <!-- Contact -->
+    <div class="ContactContainer" id="contactL">
+
+      <nav id="contactNav">
+        <div class="contactLogo">
+          <object class="contactLogo" data="img/Home/logo.png"> </object>
+        </div>
+        <div class="options">
+          <a class="options a" id="contactHomeOption" href="index.html#start">Home</a>
+          <a class="options a" id="abtOption2" href="index.html#aboutTitle">About</a>
+          <a class="options a" id="portOption2" href="index.html#aboutTitle">Portfolio</a>
+          <a class="options a" style="color: yellow;">Contact</a>
+        </div>
+      </nav>
+      <div id="contactHead">
+        <h1 >Contact Me!</h1>   
+        <h4>While i'm okay with smoke signals, there are simpler ways to get in touch!</h4>
+      </div>
+
+      <div id="contactLearn">
+        <div id="cl1">
+          <img alt="a3" class="aboutMeImg3" src="img/Contact/faq.png"  />
+          <p>FAQS</p>
+          <a href="learnMore.html"><button>Learn More</button></a>
+        </div>
+        <div id="cl2">
+          <img alt="a2" class="aboutMeImg2" src="img/Contact/policy.png"/>
+          <p>Revise Policy</p>
+          <a href="learnMore.html"><button>Learn More</button></a>
+        </div>
+        <div id="cl3"> 
+          <img alt="am" class="aboutMeImg" src="img/Contact/privacy.png"/>
+          <p>Privacy Policy</p>
+          <a href="learnMore.html"><button>Learn More</button></a>
+        </div>
+        <div id="cl4">
+          <img alt="ami" class="aboutMeImg" src="img/Contact/prices.png"  />
+          <p>My Prices</p>
+          <a href="learnMore.html"><button>Learn More</button></a>
+        </div>
+      </div>
+
+      <div id="contactStill">
+        <h3>STILL CAN'T FIND WHAT<br>YOU'RE LOOKING FOR?</h3>
+        <p>Feel free to drop your contact! I'll reply to you as soon as possible!</p>
+      </div>
+
+      <div id="contactForm">
+        <div id="formLeft">
+          <form method="post" action=" https://jkorpela.fi/cgi-bin/echo.cgi">
+            <p>Name</p>
+            <input name="Name" type="text" class="email" id="name" pattern="[a-zA-Z]+" required>
+            <p>Date of Birth</p>
+            <input name="DOB"  type="date"  class="dob" required>
+            <p>Phone Number</p>
+            <input name="Number" type="number" class="phoneNo" minlength="5" required>
+            <p>Your Email Address</p>
+            <input name="email" type="email" class="email" required>
+            <p>Select a topic:</p>
+              <input onclick="location.href='billing.html'" type="button" value="Billing Issues" class="topic">
+              <input onclick="location.href='notification.html'" type="button" value="Notifications" class="topic">
+              <input onclick="location.href='sources.html'" type="button" value="Additional Sources" class="topic">
+            <p>Or tell me what you need help with:</p>
+            <textarea name="textArea" class="textArea" rows="10" cols="30" required></textarea>
+            <p></p>
+            <input type="submit" class="submit" value="Submit">
+          </form>
+        </div>
+        <div id="formRight">
+          <div>
+            <img alt="loc" id="loc" src="img/Contact/location.png"/>
+            <p><span style="font-weight: bold;">ABC University</span>
+              <br>Computer Science</p>
+          </div>
+          <div>
+            <img alt="ph" class="phone" src="img/Contact/phone.png" />
+            <p id="contactP">+60123456789</p>
+          </div>
+          <div>
+            <img alt="em" class="emailP" src="img/Contact/email.png" />
+            <p>abc123123@gmail.com</p>
+          </div>
+          <div class="socials">
+            <a href="https://www.instagram.com"><img alt="soc1" class="socImg" src="img/Contact/insta.png"  /></a>
+            <a href="https://www.linkedin.com/"><img alt="soc2" class="socImg" src="img/Contact/linkedin.png"  /></a>
+          </div>
+        <h6 id="footerContact" >
+          <span class="people">&emsp; &emsp;  &emsp;  Your</span> 
+          2023, all rights reserved
+        </h6>
+        </div>
+
+
+      </div>
+
+    </div>
+    <!-- End of Container -->
+    <script src="script.js"></script>
+  </body>
+</html>
